@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAPPY BABY MEMORIES｜ベビー手形足形ギフト</title>
+  <style>
+    body {
+      font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+      margin: 0;
+      background-color: #fffaf9;
+      color: #554a45;
+      line-height: 1.8;
+      background-image: radial-gradient(#ffe5e1 1px, transparent 1px);
+      background-size: 20px 20px; /* 小さなドット背景 */
+    }
+
+    header {
+      background-color: #fce9e4;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #f7dcd5;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: #b96f6f;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 0.3rem;
+    }
+
+    nav a {
+      color: #b96f6f;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 0.9rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(180deg, #fff5f3 0%, #fff 100%);
+    }
+
+    .hero img {
+      width: 90%;
+      max-width: 420px;
+      border-radius: 15px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+
+    .hero h2 {
+      color: #b96f6f;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+      padding: 2rem 1rem;
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .product {
+      background-color: rgba(255,255,255,0.9);
+      border-radius: 15px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-3px);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      color: #b96f6f;
+      margin-top: 0.7rem;
+      font-size: 1.05rem;
+    }
+
+    .product p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .price {
+      color: #e88b7a;
+      font-weight: bold;
+      margin: 0.4rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #eab8b1;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #d7958b;
+    }
+
+    .shop-info {
+      background: rgba(255, 248, 246, 0.9);
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid #f5ddd7;
+    }
+
+    .shop-info h2 {
+      color: #b96f6f;
+      margin-bottom: 0.8rem;
+      font-size: 1.2rem;
+    }
+
+    .shop-info p {
+      margin: 0.2rem 0;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #fce9e4;
+      color: #887b75;
+      padding: 1rem;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    /* 📱スマホで見やすくする調整 */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+      nav a {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HAPPY BABY MEMORIES</h1>
+    <nav>
+      <a href="#products">商品</a>
+      <a href="#shop">店舗情報</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="hero.jpg" alt="ベビー手形足形ギフトの写真">
+    <h2>今しか残せない、世界にひとつの思い出ギフト。</h2>
+  </section>
+
+  <section id="products" class="products">
+    <div class="product">
+      <img src="handprint1.jpg" alt="手形アートフレーム">
+      <h3>手形アートフレーム</h3>
+      <p>アクリルに施されたデザインが見るたびに笑顔になれるフレーム。</p>
+      <p class="price">¥3,800（税込）</p>
+      <a href="#" class="btn">購入する</a>
+    </div>
+
+    <div class="product">
+      <img src="footprint1.jpg" alt="足形アートボード">
+      <h3>足形アートボード</h3>
+      <p>ナチュラルでおしゃれな足形ボード。出産祝いや内祝いにもおすすめ。</p>
+      <p class="price">¥3,500（税込）</p>
+      <a href="#" class="btn">購入する</a>
+    </div>
+
+    <div class="product">
+      <img src="set1.jpg" alt="手形足形セットギフト">
+      <h3>手形・足形セットギフト</h3>
+      <p>おしゃれなギフトボックス付きで特別な贈り物にぴったり。</p>
+      <p class="price">¥6,500（税込）</p>
+      <a href="#" class="btn">購入する</a>
+    </div>
+  </section>
+
+  <section id="shop" class="shop-info">
+    <h2>店舗情報</h2>
+    <p >ものつくり
+    <p>〒111ー1111　東京都目黒区
+    </p>
+    <p>営業時間：10:00〜17:00（火曜定休）</p>
+    <p>電話：0463-12-3456</p>
+    <p>メール：info@happybaby.com</p>
+    <p>Instagram：@happybaby_memories</p>
+  </section>
+
+  <footer>
+    &copy; 2025 HAPPY BABY MEMORIES All Rights Reserved.
+  </footer>
+
+</body>
+</html>
